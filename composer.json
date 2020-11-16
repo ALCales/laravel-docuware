@@ -1,0 +1,30 @@
+{
+    "name": "alcales/laravel-docuware",
+    "license": "MIT",
+    "description": "Docuware SDK Laravel",
+    "type": "library",
+    "keywords": ["docuware", "laravel"],
+    "authors": [
+        {
+            "name": "Alejandro Lopez Cardo",
+            "email": "info@alcales.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "ALCales\\Docuware\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ALCales\\Docuware\\DocuwareServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
